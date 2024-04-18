@@ -7,7 +7,7 @@ function reqListener() {
   const countriesData = JSON.parse(this.responseText);
 
   for (let ind = 0; ind < countriesData.length; ind++){
-      console.table(countriesData[ind].flags.png)
+      console.table(countriesData[ind].flags.png);
 }
 }
   const req = new XMLHttpRequest();
