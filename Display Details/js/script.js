@@ -7,7 +7,7 @@ function reqListener() {
   const countriesData = JSON.parse(this.responseText);
 
   for (let ind = 0; ind < countriesData.length; ind++){
-      console.table(countriesData[ind].name.common, countriesData[ind].region, countriesData[ind].subregion)
+      console.table(countriesData[ind].name.common, countriesData[ind].region, countriesData[ind].subregion, countriesData[ind].population)
 }
 }
   const req = new XMLHttpRequest();

@@ -5,7 +5,7 @@ const isEqual = (obj1, obj2) => {
         return false;
     }
     for (let objkey of obj1keys) {
-        if(obj1[objkey] !== obj2[objkey]){
+        if(obj1[objkey] !== obj2[objkey]) {
             return false;
         }
     }
