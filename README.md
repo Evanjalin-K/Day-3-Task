@@ -2,7 +2,7 @@
 
 1. Comparing two unordered JSON with the same keys and values:
    1. Here we have compared the two objects by using the arrowFunction to get the exact result as expected
-   2. Get the code in the [ComparingJSON.js](./ComparingJSON/) folder.
+   2. Get the code in the [ComparingJSON.js](./ComparingJSON/ComparingJSON.js) file.
 2. Display the details of all the countries names, subregions and populations:
    1. Created an html file and added script.js
    2. In script.js added the needed code to get the countries data from [restcountries_API](https://restcountries.com/v3.1/all) and dispalyed few details of all the countries like names, regions,subregions and populations
